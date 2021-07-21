@@ -48,6 +48,3 @@ python sokrg.py
 - 
 
 
-
-
-
