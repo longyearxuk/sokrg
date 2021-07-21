@@ -459,7 +459,7 @@ if __name__ == "__main__":
       'taper_width_slip': 30,
       'taper_width_psv': 10,
       'fs_max': 12.5,
-      'output_path': '/Users/wsavran/Research/sokrg_bbp/source_models',
+      'output_path': '/Users/kxu4143/Documents/Codes_KRG_SO/outputs',
       'seed': 123456,
       'nsim': 64,
       'velocity_model_path': './central_japan_bbp1d.txt',
