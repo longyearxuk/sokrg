@@ -19,3 +19,10 @@ conda activate sokrg
   - R scripts: downloaded R-4.1.0.pkg for MacOs and installed directly
   - gstat package (v2.0_7): conda install -c conda-forge r-gstat
   - sp package (v1.3_1): conda install -c r r-sp
+
+## 2/ environment & library settings
+  - error encountered: dyld: Library not loaded: @rpath/libreadline.6.2.dylib
+    solved by:
+```
+conda update -c rdonnellyr -c main --all
+```
