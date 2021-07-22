@@ -9,7 +9,7 @@ be done to generalize to other faulting types and magnitudes.
 ## Installing and running KRG
 
 Before you can run the code you need to configure the appropriate environment. We suggest using `conda` to manage the Python
-environment. First, download and install [conda](https://docs.conda.io/projects/conda/en/latest/) onto your system. Next, issue
+environment. First, download and install [conda](https://docs.conda.io/projects/conda/en/latest/) ([installation](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)) onto your system. Next, issue
 the following commands to install the required packages.
 ```
 conda env create -f requirements.yml
