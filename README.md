@@ -16,7 +16,8 @@ conda env create -f requirements.yml
 conda activate sokrg
 ```
 You will also need to download [`R`](https://mirrors.nics.utk.edu/cran/) and install the following packages:
-- [gstat](https://cran.r-project.org/web/packages/gstat/index.html)
+- [gstat](https://cran.r-project.org/web/packages/gstat/index.html) ([in anaconda](https://anaconda.org/conda-forge/r-gstat))
+- sp ([in anaconda](https://anaconda.org/r/r-sp))
 
 Run the rupture generator in the environment created above:
 
