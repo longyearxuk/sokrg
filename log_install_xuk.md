@@ -25,7 +25,7 @@ conda activate sokrg
 ```
 dyld: Library not loaded: @rpath/libreadline.6.2.dylib.  
 ```
-    [solved by]
+  [solved by]
 ```
 conda update -c rdonnellyr -c main --all
 ```
@@ -34,7 +34,7 @@ conda update -c rdonnellyr -c main --all
 Error generating random fields. Exiting program.  
 Rscript execution error: No such file or directory
 ```
-    [solved by]
+  [solved by]
 ```
 
 ```
