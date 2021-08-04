@@ -21,8 +21,20 @@ conda activate sokrg
   - sp package (v1.3_1): conda install -c r r-sp
 
 ## 2/ environment & library settings
-  - error encountered: dyld: Library not loaded: @rpath/libreadline.6.2.dylib.  
+  - error encountered:  
+```
+dyld: Library not loaded: @rpath/libreadline.6.2.dylib.  
+```
     [solved by]
 ```
 conda update -c rdonnellyr -c main --all
+```
+  - error encountered:  
+```
+Error generating random fields. Exiting program.  
+Rscript execution error: No such file or directory
+```
+    [solved by]
+```
+
 ```
