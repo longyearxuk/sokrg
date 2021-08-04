@@ -42,5 +42,7 @@ Rscript execution error: No such file or directory
 ```
   [solved by]
 ```
-
+change output paths in:  
+sokrg.py (:462) 'output_path'
+generic_scale_truncated_resample.py (:461) 'output_path'
 ```
