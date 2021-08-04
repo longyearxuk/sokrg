@@ -17,8 +17,14 @@ conda env create -f requirements.yml
 conda activate sokrg
 ```
   - R scripts: downloaded R-4.1.0.pkg for MacOs and installed directly
-  - gstat package (v2.0_7): conda install -c conda-forge r-gstat
-  - sp package (v1.3_1): conda install -c r r-sp
+  - gstat package (v2.0_7):  
+```
+conda install -c conda-forge r-gstat
+```
+  - sp package (v1.3_1):   
+```
+conda install -c r r-sp
+```
 
 ## 2/ environment & library settings
   - error encountered:  
